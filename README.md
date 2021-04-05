@@ -31,7 +31,17 @@ Comparator interface:
  
    
 
-** Shallow, Deep Comparision **
+**# Shallow, Deep Comparision **
+
+Shallow comparision:
+
+double equals can be used. It just check memory address of two objects.
+
+Deep comparision:
+
+It compare internal details of two objects.
+
+
 
 
 
