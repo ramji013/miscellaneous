@@ -31,7 +31,7 @@ Comparator interface:
  
    
 
-**# Shallow, Deep copy**
+** Shallow, Deep Comparision **
 
 
 
