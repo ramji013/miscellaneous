@@ -17,8 +17,17 @@ good video explaination: https://www.youtube.com/watch?v=450maTzSIvA
 
 **How arraylist works internally:**
 
+Arraylist internall use array of object class to store its object.
+It is resizable implementation of list interface.
+The array of object class is defined as **transient object[] elementData;**
 
+why transient
+it provide a custom readObject and writeObject methods to do a better job of serialization than default.
 
+How arraylist created:
+public arraylist with initial capacity.
+
+    
 
 **difference between comparable and comparator**
 
