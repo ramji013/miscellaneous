@@ -20,13 +20,13 @@ good video explaination: https://www.youtube.com/watch?v=450maTzSIvA
 
 
 
-difference between comparable and comparator
+**difference between comparable and comparator**
 
 comparable is for default nature of sorting order
 comparator customized sorting order
 
 
-Comparable interface:
+**Comparable interface:**
 
 1. Default natural sorting order
 2. java.lang package
@@ -35,7 +35,7 @@ Comparable interface:
 
 
 
-Comparator interface:
+**Comparator interface:**
 
 1. Customized sorting order
 2. java.util package
@@ -49,13 +49,13 @@ Comparator interface:
  
    
 
-**# Shallow, Deep Comparision **
+**Shallow, Deep Comparision**
 
-* Shallow comparision:
+**Shallow comparision:**
 
 double equals can be used. It just check memory address of two objects.
 
-Deep comparision:
+**Deep comparision:**
 
 It compare internal details of two objects.
 
