@@ -51,7 +51,7 @@ Comparator interface:
 
 **# Shallow, Deep Comparision **
 
-Shallow comparision:
+* Shallow comparision:
 
 double equals can be used. It just check memory address of two objects.
 
