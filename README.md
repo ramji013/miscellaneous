@@ -76,3 +76,11 @@ ConcurrentHashMap uses multiple buckets to store data. This avoids read locks an
 When you read from a ConcurrentHashMap using get(), there are no locks, contrary to the HashTable for which all operations are simply synchronized. HashTable was released in old versions of Java whereas ConcurrentHashMap is a java 5+ thing.
 
 
+
+Functional Interface:
+
+There are four types.
+1. Predicate.  -> it return true or false based on the 2nd argument
+2. Consumer.   -> it just cosume and don't produce output
+3. Function.   -> it consumes request and produce output
+4. Supplier.  -> it only produce output
